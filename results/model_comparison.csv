@@ -1,0 +1,5 @@
+Model,Final Train Acc (%),Final Val Acc (%),Test Acc (%),F1-Score (%),Best Val Acc (%)
+Simple MLP,85.25,84.33,86.32,86.10,84.72
+Basic CNN,90.31,89.70,90.75,90.67,89.70
+Advanced CNN,91.85,91.02,92.12,92.04,91.38
+Simplified ResNet,95.20,93.83,93.96,93.93,93.83
