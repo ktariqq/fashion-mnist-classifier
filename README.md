@@ -67,26 +67,6 @@ It achieves **93%+ test accuracy** through:
 
 <br><br>
 
-## 🟣 Project Structure
-
-fashion-mnist-classifier/
-├── notebooks/
-│   └── fashion_mnist_experiments.ipynb
-├── models/
-│   ├── model_architectures.py
-│   └── *.pth
-├── utils/
-│   └── helpers.py
-├── results/
-│   ├── all_models_training_history.png
-│   ├── confusion_matrix.png
-│   ├── per_class_f1_scores.png
-│   ├── sample_predictions.png
-│   └── model_comparison.csv
-└── README.md
-
-<br><br>
-
 ## 🟣 Performance Analysis
 
 ### Best Model: Simplified ResNet
@@ -147,3 +127,28 @@ fashion-mnist-classifier/
 * Deployment via FastAPI / Flask
 
 <br><br>
+
+
+## 🟣 Setup Instructions
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/YOUR_USERNAME/fashion-mnist-classifier.git
+cd fashion-mnist-classifier
+```
+
+### 2. Create virtual environment (recommended)
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+### 3. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the notebook
+```bash
+jupyter notebook notebooks/fashion_mnist_experiments.ipynb
+```
