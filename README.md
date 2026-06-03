@@ -1,7 +1,11 @@
-# 🟣 FashionMNIST Multi-Model Classifier
+# FashionMNIST Multi-Model Classifier
 
 A deep learning benchmarking project comparing **MLP, CNN, Advanced CNN, and ResNet** architectures on the FashionMNIST dataset using PyTorch.  
 Includes data augmentation, learning rate scheduling, and full evaluation pipeline with per-class analysis.
+
+![PyTorch](https://img.shields.io/badge/PyTorch-Deep%20Learning-8A2BE2.svg)
+![FashionMNIST](https://img.shields.io/badge/Dataset-FashionMNIST-9370DB.svg)
+![License](https://img.shields.io/badge/License-MIT-4B0082.svg)
 
 ![Training History](results/all_models_training_history.png)
 
